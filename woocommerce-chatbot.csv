@@ -11,7 +11,7 @@ ID,Type,Text,Goto
 3.1,Dialogue,Please choose a category to browse.,4
 ,SetVariable-category_page,1,
 4.1,Dialogue,,
-,SendRequest-GET-https://{{vars.consumer_key}}:{{vars.consumer_secret}}@{{vars.woocommerce_domain}}/wp-json/wc/v3/products/categories?page={{vars.category_page}}&per_page=5,"{
+,SendRequest-GET-https://{{vars.ck_4cb9d1f11a2fac450d89425648b02af961933881}}:{{vars.cs_7cd6302edda5ef820dbf2e4fc468715d336d4865}}@{{vars.woocommerce_domain}}/wp-json/wc/v3/products/categories?page={{vars.category_page}}&per_page=5,"{
     ""save_to_var"": ""categories""
 }",
 ,SetVariable-car_data,"[
